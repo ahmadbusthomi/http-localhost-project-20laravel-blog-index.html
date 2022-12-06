@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-	<h3>Aplikasi Data Pribadi</h3>
-	<h4>Tambah Data Baru</h4>
+	<h2>Edit Data Pribadi</h2>
 
 	<form action="/action page.html">
 		<label>NIK:</label><br>
@@ -14,36 +13,38 @@
 		<input type="radio">Perempuan<br><br>
 		<label>Tanggal Lahir</label><br>
 		<input type="Date" name="date"><br><br>
-		<label>Alamat:</label><br>
-			
+		
+		<input type="text" value ="text">
+
+		
 	</form>
 </body>
 
 <!DOCTYPE html>
 <html>
 <body>
-	
+	<label>Alamat</label><br>
 	<form action="/action_page.html">
 	<textarea name="message" rows="10" cols="30" ></textarea>
 	<br><br>
-	
+	<input type="submit">
 	</form>
 </body>
 </html>
 </!DOCTYPE html>
 <html>
 <body>
-	<form action="/action page php">
-		<label>Negara:</label> <br>
-		<select name="text">
-			<option value="Indonesia">Indonesia</option>
-			<option value="Arab">Arab</option>
-			<option  value="Qatar">Qatar</option>
-			<option value="Japan">Japan</option>
+	<form action="/action page.php">
+		<label>Negara:</label> <br><br>
+		<select name="cars">
+			<option value="volvo">Indonesia</option>
+			<option value="saab">Arab</option>
+			<option  value="fiat">Qatar</option>
+			<option value="audi">Japan</option>
 		</select> <br> <br>
 		<input type="submit">
-		<tr><td colspan="2"><button type="submit" value="simpan">SIMPAN</button></td></tr>
-		
+		<input type="text" value="kembali">
+		<a href="hapusdata.php?&id=<?php echo "$array[0]"; ?>">hapus</a>
 	</form>
 
 </body>
